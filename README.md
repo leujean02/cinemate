@@ -1,1 +1,1 @@
-# CineMate
+# cinemate
