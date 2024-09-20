@@ -2,7 +2,7 @@
 
 CineMate is an AWS Lex bot designed to help users search for movies by title, with options to filter results based on the release year. Users can ask for movie recommendations or search for specific titles, and the bot will refine its responses accordingly.
 
-I have included the Lambda function that powers the back-end logic of this bot in the file `lambda-function.py`, which handles API integration and data fetching using Python.
+I have included the Lambda function that powers the back-end logic of this bot in the file `lambda_function.py`, which handles API integration and data fetching using Python.
 
 ## Technologies Used
 
