@@ -1,0 +1,70 @@
+{
+    "region": "ap-northeast-2",
+    "cognito": {
+      "poolId": "ap-northeast-2:2a13d0de-fb0d-48b4-bb68-4f8ee5d4d4b5",
+      "appUserPoolClientId": "2tq3oka8518dsorri1jvabccbo",
+      "appUserPoolName": "ap-northeast-2_wX2l4qL6K",
+      "appDomainName": "lexkwebkuikcinematekidentitypoolconfigkrtjt676206912144.auth.ap-northeast-2.amazoncognito.com",
+      "aws_cognito_region": "ap-northeast-2",
+      "region": "ap-northeast-2"
+    },
+    "lex": {
+      "v2BotId": "",
+      "v2BotAliasId": "",
+      "v2BotLocaleId": "en_US",
+      "botName": "CineMate",
+      "botAlias": "$LATEST",
+      "initialText": "",
+      "initialSpeechInstruction": "Say 'Hi' to get started.",
+      "initialUtterance": "",
+      "reInitSessionAttributesOnRestart": false,
+      "region": "ap-northeast-2",
+      "retryOnLexPostTextTimeout": "false",
+      "retryCountPostTextTimeout": "1",
+      "allowStreamingResponses": false,
+      "streamingWebSocketEndpoint": "",
+      "streamingDynamoDbTable": ""
+    },
+    "ui": {
+      "parentOrigin": "https://d27lgtx2a8h6a8.cloudfront.net",
+      "toolbarTitle": "CineMate",
+      "toolbarLogo": "",
+      "toolbarStartLiveChatLabel": "Start Live Chat",
+      "toolbarEndLiveChatLabel": "End Live Chat",
+      "toolbarStartLiveChatIcon": "people_alt",
+      "toolbarEndLiveChatIcon": "call_end",
+      "positiveFeedbackIntent": "Thumbs up",
+      "negativeFeedbackIntent": "Thumbs down",
+      "helpIntent": "Help",
+      "minButtonContent": "",
+      "avatarImageUrl": "",
+      "backButton": false,
+      "messageMenu": false,
+      "hideButtonMessageBubble": false,
+      "enableLogin": true,
+      "enableLiveChat": false,
+      "forceLogin": false,
+      "enableUpload": false,
+      "uploadS3BucketName": "",
+      "AllowSuperDangerousHTMLInMessage": true,
+      "shouldDisplayResponseCardTitle": false,
+      "saveHistory": false,
+      "helpContent": {},
+      "enableSFX": false,
+      "hideInputFieldsForButtonResponse": false,
+      "pushInitialTextOnRestart": false,
+      "directFocusToBotInput": false,
+      "showDialogStateIcon": false
+    },
+    "polly": {
+      "voiceId": "Salli"
+    },
+    "recorder": {
+      "preset": "speech_recognition"
+    },
+    "iframe": {
+      "iframeOrigin": "https://d27lgtx2a8h6a8.cloudfront.net",
+      "shouldLoadIframeMinimized": false,
+      "iframeSrcPath": "/index.html#/?lexWebUiEmbed=true"
+    }
+  }
